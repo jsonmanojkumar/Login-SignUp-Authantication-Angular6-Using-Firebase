@@ -1,4 +1,9 @@
-# AuthanticationAngular6
+1.  Create a project in firebase 
+2.  Create a database  project in firebase
+3.  click  devlop/authentication/Sign-in method  do enable tha email and pass
+4.  click devlop/database/rules do true and enable the authentication
+
+AuthanticationAngular6
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
