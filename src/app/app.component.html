@@ -1,0 +1,20 @@
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-success ml-10">Firebase Login And SignUp Authantication</h1><br>
+            <h1 *ngIf="authenticationService.userData | async"  class="text-danger">Hello Mr. {{ (authenticationService.userData | async)?.email }}</h1>
+
+            <div *ngIf="!(authenticationService.userData | async)">
+                <input type="text" class="form-control" [(ngModel)]="email" placeholder="email"><br>
+                <input type="password" class="form-control"  [(ngModel)]="password" placeholder="password"><br>
+
+                <button class="btn btn-primary" (click)="signUp()">Sign Up</button>&nbsp;
+
+                <button class="btn btn-success" (click)="signIn()">Login</button>
+            </div>
+
+             <button class="btn btn-primary" (click)="signOut()" *ngIf="authenticationService.userData | async">Logout</button>
+         </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
