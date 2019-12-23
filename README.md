@@ -2,6 +2,9 @@
 2.  Create a database  project in firebase
 3.  click  devlop/authentication/Sign-in method  do enable tha email and pass
 4.  click devlop/database/rules do true and enable the authentication
+5.  helpfull link: 
+https://www.positronx.io/setup-angularfire2-library-in-angular-7-project/
+https://www.positronx.io/firebase-authentication-in-angular-8-with-angularfire2/
 
 AuthanticationAngular6
 
